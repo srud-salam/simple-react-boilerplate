@@ -7,7 +7,7 @@ import "../styles.scss";
 import { Counter } from "./Counter";
 
 export default function App(): ReactElement {
-    const error = 1;
+    const error = 2;
     return (
         <>
             <h1>Simple React Boilerplate</h1>

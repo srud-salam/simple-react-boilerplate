@@ -46,11 +46,11 @@
     "webpack-merge": "^5.7.3"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx run lint-staged"
   },
   "lint-staged": {
     "src/**/*.{ts,jsx,tsx,json,md,scss}": [
-      "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\""
+      "npx lint"
     ]
   }
 }
