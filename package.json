@@ -50,7 +50,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,jsx,tsx,json,md,scss}": [
-      "eslint --fix"
+      "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\""
     ]
   }
 }
